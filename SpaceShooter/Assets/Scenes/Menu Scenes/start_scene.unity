@@ -613,15 +613,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameState: 0
-  gameTitle: Untitled Game
-  gameCredits: Made by Me
+  gameTitle: Space Shooter
+  gameCredits: 'Created By: Sammy Ricketts'
   copyrightDate: Copyright 2022
   recordHighScore: 1
   defaultHighScore: 1000
   defaultsLives: 3
   resetLostLevel: 1
   gameRestartDelay: 2
-  backgorundMusicClip: {fileID: 0}
+  backgorundMusicClip: {fileID: 8300000, guid: 0906599c6eeb54c499ba376ba8875a74, type: 3}
   defaultEndMessage: Game Over
   looseMessage: You Loose
   winMessage: You Win
@@ -630,7 +630,6 @@ MonoBehaviour:
   gameOverScene: end_scene
   gameLevels:
   - level_00
-  - level_01
   gameLevelsCount: 0
   TestGameManager: 0
   levelLost: 0

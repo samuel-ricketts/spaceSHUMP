@@ -48,7 +48,7 @@ public class Hero : MonoBehaviour
 
     [Space(10)]
     [Header("Projectile Settings")]
-    public GameObject projectilePrefab; //projectile
+    
     public float projectileSpeed; //speed of the projectile
     AudioSource audioSource;
     public AudioClip projectileSound;
@@ -120,6 +120,7 @@ public class Hero : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("sup");
             FireProjectile();
         }
         }//end Update()
